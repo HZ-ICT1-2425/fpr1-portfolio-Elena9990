@@ -7,13 +7,13 @@
             <li><a href="{{ route('dashboard') }}" class="{{ Request::is('dashboard') ? 'active' : '' }}">Dashboard</a></li>
             <li><a href="{{ route('faq') }}" class="{{ Request::is('faq') ? 'active' : '' }}">FAQ</a></li>
             <li>
-                <a href="blog.html">Blog</a>
+                <a href="{{ route('blog') }}" class="{{ Request::is('blog') ? 'active' : '' }}">Blog</a>
                 <ul class="dropdown">
-                    <li> <a href="blog/ict-field-work.html">ICT field Work</a> </li>
-                    <li> <a href="blog/first-feedback.html">First Feedback</a> </li>
-                    <li> <a href="blog/programming-experience.html">Programming experience</a> </li>
-                    <li> <a href="blog/personal-swot-analysis.html">Personal SWOT Analysis</a> </li>
-                    <li> <a href="blog/study-choice-activities.html">Study choice</a> </li>
+                    <li> <a href="{{ route('post', ['slug' => 'ict-work']) }}">ICT field Work</a> </li>
+                    <li> <a href="{{ route('post', ['slug' => 'feedback']) }}">First Feedback</a> </li>
+                    <li> <a href="{{ route('post', ['slug' => 'experience']) }}">Programming experience</a> </li>
+                    <li> <a href="{{ route('post', ['slug' => 'swot']) }}">Personal SWOT Analysis</a> </li>
+                    <li> <a href="{{ route('post', ['slug' => 'study-choice']) }}">Study choice</a> </li>
                 </ul>
             </li>
         </ul>

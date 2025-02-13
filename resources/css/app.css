@@ -618,3 +618,384 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/*pages section in the blog table*/
+
+/*my study choice page*/
+#my-choice {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: 45%;
+    padding: 15px;
+}
+
+#my-choice-header {
+    border-style: ridge;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+
+.my-choice-main {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#games-picture,
+#apps-picture,
+#ui-ux-picture{
+    float: right;
+    margin-right: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#games-picture {
+    width: 420px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+#apps-picture {
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+}
+
+#ui-ux-picture {
+    width: 420px;
+    height: 300px;
+    margin-top: -180px;
+}
+
+.my-choice-main p {
+    width: 600px;
+}
+
+#back-button-st-choice {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -10px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*programming exeprience page*/
+#programming-header {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding: 15px;
+    margin-left: 43%;
+}
+
+.programming-main {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.programming-section {
+    width: 50%;
+}
+
+#img-coding {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 3px;
+    margin-left: 550px;
+    border-radius: 10px;
+}
+
+#programming-subheader {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    text-align: center;
+    padding: 5px;
+}
+
+#programming-exp-ul a {
+    color: #0c5196;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#programming-exp-ul a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+
+}
+
+#back-button-programming{
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -30px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*my pesronal swot analysis page*/
+#swot-header {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding: 15px;
+    margin-left: 43%;
+}
+
+.swot-main {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    padding-bottom: 50%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#swot-subheader {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+
+#swot-para {
+    width: 60%;
+}
+
+.swot-bullet {
+    margin-left: 70%;
+    margin-top: -1442px;
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-left: 10px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#summary-swot-h {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+#back-button-swot {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: 720px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#personal-swot-analysis-img{
+    width: 320px;
+    height: 540px;
+    margin-top: 100px;
+    float: right;
+    margin-right: 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+/*feedback page*/
+#feedback-header {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding: 15px;
+    margin-left: 45%;
+}
+
+.feedback-main {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+}
+
+.feedback-main h4 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+
+#back-button-feedback {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -15px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*ict field of work*/
+#ict-header {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding: 15px;
+    margin-left: 43%;
+}
+
+.ict-main {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    margin-bottom: 20px;
+}
+
+.ict-main a {
+    color: #385ee7fb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ict-main a:hover {
+    background-color: transparent;
+}
+
+#ict-subheader {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+
+#info-ict-para {
+    max-width: 600px;
+}
+
+#youtube-picture,
+#fb-picture,
+#spotify-picture{
+    width: 420px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#youtube-picture {
+    height: 340px;
+    margin-top: 50px;
+}
+
+#fb-picture {
+    height: 390px;
+    margin-top: -430px;
+}
+
+#spotify-picture {
+    height: 340px;
+    margin-top: -370px;
+}
+
+#back-button {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -30px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
