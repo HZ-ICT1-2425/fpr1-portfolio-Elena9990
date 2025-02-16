@@ -2,18 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
-use Illuminate\Foundation\Application;
 
 class StaticContentController extends Controller
 {
     /**
      * Display the index page.
      *
-     * @return Factory|View|Application
+     * @return View The index.blade.php view
      */
-    public function index()
+    public function index(): View
     {
         return view('index');
     }
@@ -21,9 +19,9 @@ class StaticContentController extends Controller
     /**
      * Display the profile page.
      *
-     * @return Factory|View|Application
+     * @return View The profile.blade.php view
      */
-    public function profile()
+    public function profile(): View
     {
         return view('profile');
     }
@@ -31,9 +29,9 @@ class StaticContentController extends Controller
     /**
      * Display the dashboard page.
      *
-     * @return Factory|View|Application
+     * @return View The dashboard.blade.php view
      */
-    public function dashboard()
+    public function dashboard(): View
     {
         return view('dashboard');
     }
@@ -41,9 +39,9 @@ class StaticContentController extends Controller
     /**
      * Display the faq page.
      *
-     * @return Factory|View|Application
+     * @return View The faq.blade.php view
      */
-    public function faq()
+    public function faq(): View
     {
         return view('faq');
     }

@@ -35,7 +35,7 @@
                 <li>Who am I?</li>
             </h3>
             <p>
-                So, a few months ago I just graduaded highschool and decided to continue my study path with taking higher
+                So, a few months ago I just graduated high school and decided to continue my study path with taking higher
                 education
                 at the HZ University of Applied Sciences. So, now I'm taking the challenge of living abroad and studying in a
                 language different than mine. But why did I choose it to be like that? Because why not trying taking diverse
@@ -55,10 +55,10 @@
                 <li>Why is ICT for me?</li>
             </h3>
             <p>
-                Firstly, I've always been interested in computers in some way. At first I wasn't really sure what exatly
-                attracted me to them, but a few years ago I descovered my desire to create things like apps, presentations,
+                Firstly, I've always been interested in computers in some way. At first I wasn't really sure what exactly
+                attracted me to them, but a few years ago I discovered my desire to create things like apps, presentations,
                 designs, games, etc. And for a creative and logical thinking person like me, the program would definitely help
-                to me improve my creative talents, and it could also help me with the deeper understanging of computer
+                to me improve my creative talents, and it could also help me with the deeper understanding of computer
                 science. So,
                 in that way I will have the right knowledge which will give me the possibility make projects from which I am
                 going to benefit from. But it's not going to be only me who's going to benefit from it, but the world as well.

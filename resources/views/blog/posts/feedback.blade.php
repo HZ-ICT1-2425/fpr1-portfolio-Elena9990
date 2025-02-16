@@ -31,15 +31,15 @@
             </p>
             <h4>My feedback from students</h4>
             <p>There was a feedback that I also received from students. What they said was that maybe changing the design of
-                my home page woudld be better, as well as that they stated that I should change some of the links put on the
-                pages and make them open in a different widnow and not in the one that my site is on, so the visitor of the site
+                my home page would be better, as well as that they stated that I should change some of the links put on the
+                pages and make them open in a different window and not in the one that my site is on, so the visitor of the site
                 stays focused on my site. Also some of them suggested that changing some of my design elements would make the
                 site a better. </p>
             <p>
             <h4>My thoughts about the feedbacks</h4>
             <p>
-                When it comes to the first feedback, I think that prioritizing things works way more than being undecisive about
-                wheter I should spend more time on the details or continue with the more important stuff. And about the feedback
+                When it comes to the first feedback, I think that prioritizing things works way more than being indecisive about
+                whether I should spend more time on the details or continue with the more important stuff. And about the feedback
                 from the students, I think that what they suggested me to do is vital and I took it into account. The only thing
                 that I took into account, but didn't really change is the design elements. But they were right about changing
                 the home page;

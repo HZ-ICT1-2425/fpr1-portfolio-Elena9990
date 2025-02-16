@@ -9,7 +9,7 @@
             <tr>
                 <td>Quarter</td>
                 <td>Course</td>
-                <td>Assesment</td>
+                <td>Assessment</td>
                 <td>EC</td>
                 <td>Grade</td>
             </tr>
@@ -93,7 +93,7 @@
             </tr>
             <tr>
                 <td>The whole year</td>
-                <td>Personal Proffesional Development Exploration</td>
+                <td>Personal Professional Development Exploration</td>
                 <td>Criterium focused interview</td>
                 <td>12.5</td>
                 <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>

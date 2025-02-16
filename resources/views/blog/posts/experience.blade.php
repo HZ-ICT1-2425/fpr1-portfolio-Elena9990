@@ -4,13 +4,13 @@
     <!--the main content of the page-->
     <main class="programming-main">
         <section class="programming-section">
-            <img id="img-coding" src="../images/coding_picture.jpg" alt="coding-picture" title="coding-picture">
+            <img id="img-coding" src="{{asset('images/coding_picture.jpg')}}" alt="coding-picture" title="coding-picture">
             <h3 id="programming-subheader">Why did I chose to study programming!</h3>
             <p>
                 From a young age I've always been curious about how those magical machines (computers) really work. And when I
                 grew up and started doing projects at school on different topics in IT class I realized that I am creative and I
-                like making design so much. So, I gained a lot of skills in it and then decided that completeting my skills
-                with something more complecated like pogramming would really help me in the future to do what I want and to
+                like making design so much. So, I gained a lot of skills in it and then decided that completing my skills
+                with something more complicated like programing would really help me in the future to do what I want and to
                 create everything that I always wanted.
             </p>
             <h3 id="programming-subheader">What's my programming experience?</h3>

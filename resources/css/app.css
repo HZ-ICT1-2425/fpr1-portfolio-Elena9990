@@ -707,7 +707,6 @@ footer a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-radius: 20px;
     width: fit-content;
-    float: center;
     padding: 15px;
     margin-left: 43%;
 }
@@ -775,13 +774,12 @@ footer a:hover {
     border-radius: 10px;
 }
 
-/*my pesronal swot analysis page*/
+/*my personal swot analysis page*/
 #swot-header {
     background-color: #ffffff27;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-radius: 20px;
     width: fit-content;
-    float: center;
     padding: 15px;
     margin-left: 43%;
 }
@@ -870,7 +868,6 @@ footer a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-radius: 20px;
     width: fit-content;
-    float: center;
     padding: 15px;
     margin-left: 45%;
 }
@@ -918,7 +915,6 @@ footer a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-radius: 20px;
     width: fit-content;
-    float: center;
     padding: 15px;
     margin-left: 43%;
 }

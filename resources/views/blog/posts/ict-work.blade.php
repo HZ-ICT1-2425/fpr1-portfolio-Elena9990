@@ -7,9 +7,9 @@
     <p>
         So, I mentioned that I'd like to do diverse projects and improve them more and more. Yeah, I always wanted to
         create games and apps, but there's also something that I have always desired to do. And it is working in some of
-        the biggest comapnies in the world. Why exactly those ones? Why not some companies connected with creating games
+        the biggest companies in the world. Why exactly those ones? Why not some companies connected with creating games
         and apps? Well, I'll give only one reason for now, because the rest is for you down below in the page. So, those
-        comapnies use so much user's data and it's amazing how it all works for the companies and the users.
+        companies use so much user's data and it's amazing how it all works for the companies and the users.
     </p>
     <h3 id="ict-subheader">Facebook</h3>
     <p id="info-ict-para">
@@ -23,7 +23,7 @@
         world, with 22.56% of its traffic coming from the United States. It was the most downloaded mobile app of
         the 2010s.
     </p>
-    <img id="fb-picture" src="../images/facebook_messenger.jpg" alt="Facebook" title="Facebook">
+    <img id="fb-picture" src="{{asset('images/facebook_messenger.jpg')}}" alt="Facebook" title="Facebook">
     <p>
         Facebook has been a big part of my life, because I've had a profile there since I was a child and I've been so
         curious how everything in the app is just made. For instance, the fact that you can find so many poeple and see
@@ -34,7 +34,7 @@
     <ul>
         <li>Sources: Meta, Wikipedia</li>
     </ul>
-    <img id="youtube-picture" src="../images/youtube-logo-pic.jpg" alt="YouTube" title="YouTube">
+    <img id="youtube-picture" src="{{asset('images/youtube-logo-pic.jpg')}}" alt="YouTube" title="YouTube">
     </p>
     <h3 id="ict-subheader">YouTube</h3>
     <p id="info-ict-para">
@@ -47,16 +47,14 @@
         videos in total.
     </p>
     <p>
-        There are several reasons because of which I would like to work for YouTube. Firtly, it's been improving all the
+        There are several reasons because of which I would like to work for YouTube. Firstly, it's been improving all the
         time and I as a user can say that it's always been intriguing to see the changes and actually think of a way to
-        make some on my own. I would like to try to improve the desgin and to add more options to the platform. Also, I'd
-        like to see the whole process "behind the scenes", for example, how they make the mecahcnism of approving the
+        make some on my own. I would like to try to improve the design and to add more options to the platform. Also, I'd
+        like to see the whole process "behind the scenes", for example, how they make the mechanism of approving the
         videos and how the regulations are being implemented.
     <ul>
         <li>Sources: YouTube, Wikipedia</li>
-        </li>
     </ul>
-    </p>
     <h3 id="ict-subheader">Spotify</h3>
     <p id="info-ict-para">
         Spotify’s platform revolutionized music listening forever when we launched in 2008. Our move into podcasting
@@ -68,13 +66,13 @@
         titles, and 350,000 audiobooks a la carte on Spotify. We are the world’s most popular audio streaming subscription
         service with more than 626 million users, including 246 million subscribers in more than 180 markets.
     </p>
-    <img id="spotify-picture" src="../images/spotify-logo.jpg" alt="Spotify" title="Spotify">
+    <img id="spotify-picture" src="{{asset('images/spotify-logo.jpg')}}" alt="Spotify" title="Spotify">
     <p>
         Joining Spotify as an IT specialist would be great not only because I would upgrade my coding skills, but also I
         would see some part of the music industry or at least in the technical part. Working there would give me the
-        bigger perspective for working a completely deifferent technnical field which is great beacuse when you have more
-        experinece with diverse apps like this one you can start combining all of your skills and make something greater
-        as a product. Also, who isn't curoius about music in general? This is also a way to see new artist appearing in
+        bigger perspective for working a completely different technical field which is great because when you have more
+        experience with diverse apps like this one you can start combining all of your skills and make something greater
+        as a product. Also, who isn't curious about music in general? This is also a way to see new artist appearing in
         the music industry and having the opportunity to be part of the first ones who discovered them. And actually not
         only new artists but motivators who give motivational podcasts and help others to keep up with there success. So,
         that's how you start knowing more and more talents and some day you might even work with them, who knows?

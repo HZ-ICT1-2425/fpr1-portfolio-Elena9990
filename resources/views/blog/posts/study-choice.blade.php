@@ -2,7 +2,7 @@
     <x-slot name="title">study-choice</x-slot>
     <h1 id="my-choice">My study choice</h1>
     <main class="my-choice-main">
-        <img id="games-picture" src="../images/games.jpg" alt="Games" title="Games">
+        <img id="games-picture" src="{{asset('images/games.jpg')}}" alt="Games" title="Games">
         <h3 id="my-choice-header">How did it all start? </h3>
         <p>Everything started with me being curious about all the colorful stuff on the computers (games, sites,
             presentations, etc.). Since I was little, I've always wanted to create something interesting and big like a game,
@@ -11,7 +11,7 @@
             them interesting. All of my school work inspired me even more to continue with the subject of IT.
         </p>
         <h3 id="my-choice-header">Motivate your study choice </h3>
-        <img id="apps-picture" src="../images/apps-pic.jpg" alt="APPS" title="APPS">
+        <img id="apps-picture" src="{{asset('images/apps-pic.jpg')}}" alt="APPS" title="APPS">
         <p>My decision for picking up the ICT program was taken, because of the knowledge given through it. With its power I
             can grow and develop in the IT sector pretty well and that means that the opportunities and the benefits from
             taking this particular program are large. Eventually, it gives the opportunity for the students to decide what
@@ -25,7 +25,7 @@
             person and as a character.
         </p>
         <h3 id="my-choice-header">After completing the study... </h3>
-        <img id="ui-ux-picture" src="../images/ui-ux-design.jpg" alt="UI/UX" title="UI/UX">
+        <img id="ui-ux-picture" src="{{asset('images/ui-ux-design.jpg')}}" alt="UI/UX" title="UI/UX">
         <p>
             After completing the study I will have gained a lot of knowledge and skills which I will use in my future job or
             for my own projects which I will develop and make them useful for the rest of the world. Also, my future plans for

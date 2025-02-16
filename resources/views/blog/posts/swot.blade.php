@@ -77,19 +77,19 @@
                 <ul>
                     <li>New skills</li>
                     <li>Working on bigger projects</li>
-                    <li>Getting to know more inteligent people</li>
-                    <li>Interships</li>
+                    <li>Getting to know more intelligent people</li>
+                    <li>Internships</li>
                 </ul>
             </section>
 
-            <seciton>
+            <section>
                 <h3>Threats</h3>
                 <ul>
                     <li>No threats</li>
                 </ul>
-            </seciton>
+            </section>
         </div>
-        <img id="personal-swot-analysis-img" src="../images/swot-analysis-picture.jpg" alt="SWOT-Analysis-picture"
+        <img id="personal-swot-analysis-img" src="{{asset('images/swot-analysis-picture.jpg')}}" alt="SWOT-Analysis-picture"
              title="SWOT-Analysis-picture">
         <a href="{{ route('blog') }}">
             <button id="back-button-swot" type="button">BACK</button>
