@@ -118,6 +118,38 @@ aside {
     border-radius: 20px;
 }
 
+.box {
+    display: inline-block;
+    width: 72%;
+    float: right;
+    text-align: left;
+    font-family: calibri, serif;
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 20px; /* Add left margin for spacing */
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#form-header {
+    text-align: center;
+    width: auto;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+    input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
 /*index page*/
 .background-container-index-page {
     background-image: url('/public/images/newest_one-transformed.jpeg');
@@ -478,7 +510,7 @@ iframe {
     margin-bottom: 0%;
 }
 
-/*faq page*/
+/*faqs page*/
 #questions-header {
     background-color: #ffffff27;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
@@ -701,7 +733,7 @@ footer a:hover {
     border-radius: 10px;
 }
 
-/*programming exeprience page*/
+/*programming experience page*/
 #programming-header {
     background-color: #ffffff27;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
@@ -850,6 +882,136 @@ footer a:hover {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+#create-post-button,
+#delete-post-button,
+#edit-post-button,
+#submit-form-button-cancel,
+#submit-form-button-reset,
+#submit-form-button{
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 30px;
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit-form-button {
+    display: inline-block;
+    margin-left: 0;
+    height: 40px;
+}
+
+#edit-post-button,
+#delete-post-button {
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: 150px;
+    height: 40px;
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+#submit-form-button-reset{
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    position: relative;
+    top: -150px;
+    height: 41px;
+}
+
+#submit-form-button-cancel {
+    display: inline-block;
+    margin-left:200px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    position: relative;
+    top: -80px;
+    height: 21px;
+    font-size: 18px;
+}
+
+#alert-message {
+    background: rgb(95, 158, 160);
+    color: white;
+    text-align: center;
+    padding: 10px 450px;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.closebtn-posts {
+    margin-left: 900px;
+    margin-top: -25px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+#message-empty-posts,
+#message-empty-faq{
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+}
+
+#message-empty-faq{
+    width: 80%;
+}
+#form-header {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.form-main {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
 }
 
 #personal-swot-analysis-img{

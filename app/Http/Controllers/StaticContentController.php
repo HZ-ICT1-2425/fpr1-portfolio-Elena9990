@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Faq;
 use Illuminate\Contracts\View\View;
 
 class StaticContentController extends Controller
@@ -9,7 +10,7 @@ class StaticContentController extends Controller
     /**
      * Display the index page.
      *
-     * @return View The index.blade.php view
+     * @return View The blog.blade.php view
      */
     public function index(): View
     {
@@ -34,15 +35,5 @@ class StaticContentController extends Controller
     public function dashboard(): View
     {
         return view('dashboard');
-    }
-
-    /**
-     * Display the faq page.
-     *
-     * @return View The faq.blade.php view
-     */
-    public function faq(): View
-    {
-        return view('faq');
     }
 }

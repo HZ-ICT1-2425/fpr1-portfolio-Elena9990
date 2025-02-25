@@ -11,6 +11,7 @@
     <title>{{ $title }}</title>
 
     @vite(['resources/js/app.js', 'resources/css/app.css'])
+    @stack('styles')
 </head>
 
 <body>
@@ -44,6 +45,6 @@
         </a>
     </p>
 </footer>
-
+@stack('scripts')
 </html>
 
