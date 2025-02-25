@@ -15,14 +15,15 @@ Route::get('/dashboard', [StaticContentController::class, 'dashboard'])->name('d
 Route::get('posts', [PostController::class, 'index'])->name('posts.index');
 Route::get('posts/create', [PostController::class, 'create'])->name('posts.create');
 Route::post('posts', [PostController::class, 'store'])->name('posts.store');
-Route::get('posts/{post}', [PostController::class, 'show'])->name('posts.show');
+Route::get('posts/{slug}', [PostController::class, 'show'])->name('posts.show');
 
 /*
  * Route that shows the about page. This handler just returns the about view.
  */
-Route::get('posts/{post}/edit', [PostController::class, 'edit'])->name('posts.edit');
-Route::put('posts/{post}', [PostController::class, 'update'])->name('posts.update');
-Route::delete('/posts/{post}', [PostController::class, 'destroy'])->name('posts.destroy');
+Route::get('posts/{slug}/edit', [PostController::class, 'edit'])->name('posts.edit');
+
+Route::put('/posts/{slug}', [PostController::class, 'update'])->name('posts.update');
+Route::delete('/posts/{slug}', [PostController::class, 'destroy'])->name('posts.destroy');
 
 Route::get('faqs', [FaqController::class, 'index'])->name('faqs.index');
 Route::get('faqs/create', [FaqController::class, 'create'])->name('faqs.create');

@@ -37,11 +37,11 @@
                                     <p>
                                         <i>Created at: {{ $post->created_at->format('d.m.Y, H:i') }}</i>
 
-                                        <p> {{ $post->summary }} <a href="{{ route('posts.show', $post) }}">Read more...</a></p>
+                                        <p> {{ $post->summary }} <a href="{{ route('posts.show', $post->slug) }}">Read more...</a></p>
                                         <br>
                                     </p>
-                                    <button id="edit-post-button" onclick="window.location.href='{{ route('posts.edit', ['post' => $post->id]) }}'">Edit</button>
-                                    <form action="{{ route('posts.destroy', $post->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this post?');">
+                                    <button id="edit-post-button" onclick="window.location.href='{{ route('posts.edit', $post->slug) }}'">Edit</button>
+                                    <form action="{{ route('posts.destroy', $post->slug) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this post?');">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" id="delete-post-button">Delete</button>

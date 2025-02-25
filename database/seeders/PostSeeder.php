@@ -15,8 +15,8 @@ class PostSeeder extends Seeder
 
     public function run(): void
     {
-        $data = [
-            [
+
+            Post::create([
                 'title' => 'ICT field of work',
                 'slug' => 'ict-field-of-work',
                 'body' => '<p>So, I mentioned that I would like to do diverse projects and improve them more and more.
@@ -47,8 +47,9 @@ class PostSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'summary' => 'The future is probably one of the most interesting topics for people in general. And one of their questions for it is "What is the future job you would like to have?". And now you have the answer for my future.'
-            ],
-            [
+            ]);
+
+        Post::create([
                 'title' => 'My first feedback',
                 'slug' => 'my-first-feedback',
                 'body' => '<h3>This feedback is from Paula Tavares Leitao Waaijenberg (ICT lecturer) for my "Who am I?" assignment:</h3>
@@ -61,10 +62,11 @@ class PostSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'summary' => 'Here you can check my first feedback for my answers in the "Who am I?" assignment and my website.'
-            ],
-            [
+            ]);
+
+        Post::create([
                 'title' => 'Programming experience',
-                'slug' => 'programming_experience',
+                'slug' => 'programming-experience',
                 'body' => '<h3 id="programming-subheader">Why did I choose to study programming!</h3>
                 <p>From a young age I have always been curious about how those magical machines (computers) really work. And when I grew up and started doing projects
                 at school on different topics in IT class I realized that I am creative and I like making design so much. So, I gained a lot of skills in it and then decided
@@ -75,10 +77,11 @@ class PostSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'summary' => 'This article gives insight into why I chose programming and how I’m gaining experience.'
-            ],
-            [
+            ]);
+
+        Post::create([
                 'title' => 'Personal SWOT Analysis',
-                'slug' => 'personal_work',
+                'slug' => 'personal-work',
                 'body' => '<h3 id="swot-subheader">What are your strengths?</h3>
         The first thing that comes to my mind as a strength of mine is being a good communicator. This is the thing that has helped me a lot with my
         school projects, because I know how to make people give their own ideas and opinions about a project and not be passive when it comes to working on it. In this way everyone performs a
@@ -130,9 +133,9 @@ class PostSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'summary' => 'Discovering someone\'s strengths and threats is one of the most interesting things about people, so here you are able to see mine.'
-            ],
+            ]);
 
-            [
+        Post::create([
                 'title' => 'My study choice',
                 'slug' => 'my-study-choice',
                 'body' => '<h3 id="my-choice-header">How did it all start?</h3>
@@ -146,10 +149,6 @@ class PostSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'summary' => 'Here you can see the reasons behind my choice to study in the HBO-ICT programme.'
-            ]
-        ];
-
-        // Insert data into the database
-        DB::table('posts')->insert($data);
+            ]);
     }
 }

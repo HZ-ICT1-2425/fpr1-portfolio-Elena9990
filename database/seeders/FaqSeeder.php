@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Faq;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -13,7 +14,7 @@ class FaqSeeder extends Seeder
      */
     public function run(): void
     {
-        $data = [
+        Faq::create(
             [
                 'question' => 'How can you print a document from your laptop at HZ?',
                 'answer' => '<li> Go to the <a href="https://www.hz.nl" target="_blank">HZ website</a> and log in with your username and password.</li>
@@ -30,7 +31,8 @@ class FaqSeeder extends Seeder
                 'link' => 'https://www.hz.nl',
                 'created_at' => now(),
                 'updated_at' => now()
-            ],
+            ]);
+        Faq::create(
             [
                 'question' => 'How can you scan a document and send it to your laptop at HZ?',
                 'answer' => '<li>Scanning is FREE, but you must have at least €0.07 credit on your HZ pass to proceed.</li>
@@ -43,8 +45,9 @@ class FaqSeeder extends Seeder
                 'link' => null,
                 'created_at' => now(),
                 'updated_at' => now()
-            ],
-            [
+            ]);
+
+            Faq::create([
                 'question' => 'How can I buy something (like when I sign up for the IT introduction event) on the HZ web shop?',
                 'answer' => '<li>Visit the <a href="https://webshop.hz.nl" target="_blank">HZ webshop</a>.</li>
                              <li>Pick your item of choice and place your order.</li>
@@ -52,8 +55,9 @@ class FaqSeeder extends Seeder
                 'link' => 'https://webshop.hz.nl',
                 'created_at' => now(),
                 'updated_at' => now()
-            ],
-            [
+            ]);
+
+            Faq::create([
                 'question' => 'How can you book a project space?',
                 'answer' => '<li>Visit the <a href="https://selfservice.hz.nl" target="_blank">Selfservice portal</a>.</li>
                              <li>Click on "Make a reservation" -> "Reserve a room".</li>
@@ -61,15 +65,14 @@ class FaqSeeder extends Seeder
                 'link' => 'https://selfservice.hz.nl',
                 'created_at' => now(),
                 'updated_at' => now()
-            ],
-            [
+            ]);
+
+            Faq::create([
                 'question' => 'What are the instructions if you want to park your car at the HZ parking lot?',
                 'answer' => '<li>After you scan your HZ pass at the barriers, you can park in the university lot.</li>',
                 'link' => null,
                 'created_at' => now(),
                 'updated_at' => now()
-            ]
-        ];
-        DB::table('faqs')->insert($data);
+            ]);
     }
 }

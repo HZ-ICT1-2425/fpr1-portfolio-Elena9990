@@ -1,7 +1,7 @@
 <x-layout.main>
     <x:slot:title>Edit post</x:slot:title>
     <div class="box">
-        <form action="{{ route('posts.update', ['post' => $post->id])}}" method="POST">
+        <form action="{{ route('posts.update', ['slug' => $post->slug]) }}" method="POST">
             @method('PUT')
             @csrf
             <h1 class="title is-4">Edit your post</h1>

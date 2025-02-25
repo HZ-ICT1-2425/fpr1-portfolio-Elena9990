@@ -11,38 +11,35 @@ use Illuminate\Http\Request;
 class FaqController extends Controller
 {
     /**
-     * @return View
+     * @return View The FAQ view or 404 error.
      */
-    public function index(): View
+    public function index()
     {
         $faqs = Faq::all();
         return view('faqs.index', ['faqs' => $faqs]);
     }
 
     /**
-     * Display the blog posts pages.
+     * Display a specific FAQ page.
      *
-     * @return View The FAQ view or 404 error.
+     * @param Faq $faq
+     * @return View The FAQ view.
      */
-    public function show(Faq $faq): View
+
+    public function show(Faq $faq)
     {
         return view('faqs.show', [
             'faq' => $faq
         ]);
     }
 
-    /**
-     * Create a new post.
-     *
-     * @return View
-     */
-    public function create(): View
+    public function create()
     {
         return view('faqs.create');
     }
 
     /**
-     * Store a newly created Post in storage.
+     * Store FAQ.
      */
     public function store(Request $request)
     {
