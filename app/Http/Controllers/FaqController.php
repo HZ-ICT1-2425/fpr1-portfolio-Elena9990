@@ -22,18 +22,21 @@ class FaqController extends Controller
     /**
      * Display the blog posts pages.
      *
-     * @param $slug
-     * @return View The blog post view or 404 error.
+     * @return View The FAQ view or 404 error.
      */
-
-    public function show(Faq $faq)
+    public function show(Faq $faq): View
     {
         return view('faqs.show', [
             'faq' => $faq
         ]);
     }
 
-    public function create()
+    /**
+     * Create a new post.
+     *
+     * @return View
+     */
+    public function create(): View
     {
         return view('faqs.create');
     }
@@ -57,6 +60,9 @@ class FaqController extends Controller
         return redirect()->route('faqs.index')->with('success_create', 'FAQ created successfully.');
     }
 
+    /**
+     * Edit a FAQ.
+     */
     public function edit(Faq $faq)
     {
         return view('faqs.edit', [
@@ -66,7 +72,7 @@ class FaqController extends Controller
 
     /**
      * @param Request $request
-     * @param Post $post
+     * @param Faq $faq
      * @return RedirectResponse
      */
     public function update(Request $request, Faq $faq)
@@ -84,6 +90,9 @@ class FaqController extends Controller
         return redirect()->route('faqs.index', $faq)->with('success_update', 'FAQ updated successfully.');
     }
 
+    /**
+     * Delete a FAQ.
+     */
     public function destroy(Faq $faq)
     {
         $faq->delete();

@@ -24,10 +24,8 @@ class PostController extends Controller
     /**
      * Display the blog posts pages.
      *
-     * @param $slug
      * @return View The blog post view or 404 error.
      */
-
     public function show(Post $post)
     {
         return view('posts.show', [
@@ -35,6 +33,9 @@ class PostController extends Controller
         ]);
     }
 
+    /**
+     * Create a new Post.
+     */
     public function create()
     {
         return view('posts.create');
@@ -61,6 +62,9 @@ class PostController extends Controller
         return redirect()->route('posts.index')->with('success_create', 'Post created successfully.');
     }
 
+    /**
+     * Edit the Post.
+     */
     public function edit(Post $post)
     {
         return view('posts.edit', [
@@ -91,6 +95,9 @@ class PostController extends Controller
             ->with('success_update', 'Post updated successfully');
     }
 
+    /**
+     * Delete a post.
+     */
     public function destroy(Post $post)
     {
         $post->delete();
